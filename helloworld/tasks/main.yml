@@ -1,0 +1,6 @@
+---
+- name: copy file to remote location
+  become: yes
+  copy:
+    src: files/file.txt
+    dest: /tmp
